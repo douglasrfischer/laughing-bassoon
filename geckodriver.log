@@ -1,0 +1,286 @@
+1661992991291	geckodriver	INFO	Listening on 127.0.0.1:36933
+1661992991901	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40761" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecb4e3j"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661992993178	Marionette	INFO	Marionette enabled
+1661992993187	Marionette	INFO	Listening on port 37861
+WebDriver BiDi listening on ws://localhost:40761
+Read port: 37861
+1661992993417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecb4e3j/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40761/devtools/browser/ca071ef1-f173-458d-b0c3-f484253d47e6
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  main/addons-manager-settings local data was corrupted
+console.warn: services.settings: main/addons-manager-settings Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed again InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.error: "Unable to find target with innerWindowId:4294967301"
+console.error: "Unable to find target with innerWindowId:4294967301"
+console.error: "Panel inspector:" (new TypeError("event is undefined", "resource://devtools/client/shared/telemetry.js", 700))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1661995131101	Marionette	INFO	Stopped listening on port 37861
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1661997461335	geckodriver	INFO	Listening on 127.0.0.1:53909
+1661997461894	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33229" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUAK9fg"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661997463199	Marionette	INFO	Marionette enabled
+1661997463209	Marionette	INFO	Listening on port 34663
+WebDriver BiDi listening on ws://localhost:33229
+Read port: 34663
+1661997463528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUAK9fg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33229/devtools/browser/ab8c30f8-a802-491f-b20e-8aa1e38681ed
+JavaScript warning: https://api.cazamba.com/common/czmb.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdn.cazamba.com/common/sas/wide.js, line 118: unreachable code after return statement
+1661997619197	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/woHX-vsUocJZKT3Xlr8m3oSeq6S0iuLiA_v8-B2MNhs.js line 2 > eval line 1309 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/woHX-vsUocJZKT3Xlr8m3oSeq6S0iuLiA_v8-B2MNhs.js line 2 > eval line 6507 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661997627643	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://served-by.pixfuture.com/www/delivery/afr.php, line 7: TypeError: location.ancestorOrigins is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/woHX-vsUocJZKT3Xlr8m3oSeq6S0iuLiA_v8-B2MNhs.js line 2 > eval line 3486 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661997635147	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1661997641551	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1661998670010	Marionette	INFO	Stopped listening on port 34663
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1661998695374	geckodriver	INFO	Listening on 127.0.0.1:33395
+1661998696008	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52765" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelcZ3Fj"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661998697098	Marionette	INFO	Marionette enabled
+1661998697108	Marionette	INFO	Listening on port 39629
+Read port: 39629
+WebDriver BiDi listening on ws://localhost:52765
+1661998697338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelcZ3Fj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52765/devtools/browser/29ffee23-c666-48c2-a656-6540763d3eba
+1661998816145	geckodriver	INFO	Listening on 127.0.0.1:39225
+1661998816769	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59497" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecF5Tq4"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661998817980	Marionette	INFO	Marionette enabled
+1661998817985	Marionette	INFO	Listening on port 46349
+WebDriver BiDi listening on ws://localhost:59497
+Read port: 46349
+1661998818240	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecF5Tq4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59497/devtools/browser/d2e89113-da4a-4de9-96dd-5f0e0437fe9e
+1661998824470	Marionette	INFO	Stopped listening on port 39629
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1662001907073	geckodriver	INFO	Listening on 127.0.0.1:58941
+1662001907687	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57385" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCyv2lg"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662001908737	Marionette	INFO	Marionette enabled
+1662001908744	Marionette	INFO	Listening on port 35939
+WebDriver BiDi listening on ws://localhost:57385
+Read port: 35939
+1662001908959	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCyv2lg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57385/devtools/browser/a318743d-7374-4de0-9095-b0f640b3f553
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1662002221855	geckodriver	INFO	Listening on 127.0.0.1:47715
+1662002221934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36159" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2smEO7"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662002223260	Marionette	INFO	Marionette enabled
+1662002223266	Marionette	INFO	Listening on port 41103
+WebDriver BiDi listening on ws://localhost:36159
+Read port: 41103
+1662002223519	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2smEO7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36159/devtools/browser/c764d4df-99de-43ed-bbda-5ed1242d9ef8
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1662002269748	geckodriver	INFO	Listening on 127.0.0.1:59817
+1662002269836	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48053" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQkhrhk"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662002270847	Marionette	INFO	Marionette enabled
+1662002270853	Marionette	INFO	Listening on port 37731
+WebDriver BiDi listening on ws://localhost:48053
+Read port: 37731
+1662002271053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQkhrhk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48053/devtools/browser/859a296a-2bd8-4770-9525-e2e80e76c109
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1662003393381	Marionette	INFO	Stopped listening on port 37731
+1662003414946	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1662003439193	geckodriver	INFO	Listening on 127.0.0.1:55639
+1662003439267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44425" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWy3CrL"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662003440322	Marionette	INFO	Marionette enabled
+1662003440328	Marionette	INFO	Listening on port 45195
+WebDriver BiDi listening on ws://localhost:44425
+Read port: 45195
+1662003440571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWy3CrL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44425/devtools/browser/5d2f5eb8-d98b-4706-aec6-7ade77170962
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1662071898821	geckodriver	INFO	Listening on 127.0.0.1:55229
+1662071899510	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileanOSrf"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662071900857	Marionette	INFO	Marionette enabled
+1662071900864	Marionette	INFO	Listening on port 40123
+WebDriver BiDi listening on ws://localhost:47985
+Read port: 40123
+1662071901124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileanOSrf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47985/devtools/browser/39a754ad-a7d9-469b-8f70-fe2822aa9ab8
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+console.error: "Unable to find target with innerWindowId:4294967298"
+console.error: "Unable to find target with innerWindowId:4294967298"
+1662072594500	geckodriver	INFO	Listening on 127.0.0.1:45461
+1662072595114	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53685" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFhjww3"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662072596820	Marionette	INFO	Marionette enabled
+1662072596827	Marionette	INFO	Listening on port 35635
+WebDriver BiDi listening on ws://localhost:53685
+Read port: 35635
+1662072597059	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFhjww3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53685/devtools/browser/7294cbc1-7162-4965-8aec-19fc86ebedfd
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1662072601764	Marionette	INFO	Stopped listening on port 40123
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+JavaScript error: /_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.RKotMjttGpg.es5.O/d=1/rs=AJlcJMy9pz2Y8B1rAfDVQ7prBbzOKlLW0g/m=kernel_loader,loader_js_executable, line 385: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: Document.cookie getter: Forbidden in a sandboxed document without the 'allow-same-origin' flag.
+JavaScript error: /_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.RKotMjttGpg.es5.O/d=1/rs=AJlcJMy9pz2Y8B1rAfDVQ7prBbzOKlLW0g/m=kernel_loader,loader_js_executable, line 385: SyntaxError: An invalid or illegal string was specified
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OjkVMSBLCKffYYJCcR1sndQZ2h8-FW78sMeE84aZbRQ.js line 2 > eval line 7009 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1662074999055	Marionette	INFO	Stopped listening on port 35635
+1662075040238	geckodriver	INFO	Listening on 127.0.0.1:46383
+1662075040319	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45251" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileM1Bh37"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662075042236	Marionette	INFO	Marionette enabled
+1662075042245	Marionette	INFO	Listening on port 40199
+WebDriver BiDi listening on ws://localhost:45251
+Read port: 40199
+1662075042505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileM1Bh37/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45251/devtools/browser/a1c884a1-1dbd-4a01-9794-e09125f966d2
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  main/addons-manager-settings local data was corrupted
+console.warn: services.settings: main/addons-manager-settings Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed again InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+1662075676945	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OjkVMSBLCKffYYJCcR1sndQZ2h8-FW78sMeE84aZbRQ.js line 2 > eval line 1939 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1662076437029	Marionette	INFO	Stopped listening on port 40199
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1662675942204	geckodriver	INFO	Listening on 127.0.0.1:43035
+1662675942801	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59623" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRq9jHQ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662675944076	Marionette	INFO	Marionette enabled
+1662675944084	Marionette	INFO	Listening on port 35487
+WebDriver BiDi listening on ws://localhost:59623
+Read port: 35487
+1662675944352	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRq9jHQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59623/devtools/browser/9758daa8-ff81-4722-9c16-6b8adfc1368b
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1662678007510	Marionette	INFO	Stopped listening on port 35487
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1662678024689	geckodriver	INFO	Listening on 127.0.0.1:37455
+1662678025346	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55207" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9AYAB0"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662678026744	Marionette	INFO	Marionette enabled
+1662678026751	Marionette	INFO	Listening on port 33157
+Read port: 33157
+WebDriver BiDi listening on ws://localhost:55207
+1662678026990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9AYAB0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55207/devtools/browser/bffeecb7-fcc5-41c3-bc1d-900811b9417d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1662679790326	Marionette	INFO	Stopped listening on port 33157
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
